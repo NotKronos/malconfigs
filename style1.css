@@ -1,0 +1,72 @@
+.header {
+  background-color: #333366;
+  width: 100%;
+  border-bottom: 1px solid #333366;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.header-menu {
+  margin-right: 10px;
+}
+.header-title {
+  margin-left: 10px;
+}
+#list-container {
+  margin-top: 5px;
+  background-color: #414868;
+  opacity: 0.95;
+  border: 0px;
+  border-radius: 24px;
+}
+.status-menu-container {
+  background-color: #414868;
+  border-bottom: none;
+}
+.status-menu {
+  width: 1024px;
+  background-color: #333366;
+}
+.search-container {
+  margin-right: 10px;
+}
+.list-status-title {
+  background-color: #333366;
+}
+
+.list-unit .list-status-title {
+ background-color: #333366; 
+}
+.list-table .list-table-header .header-title {
+  background: #333366;
+  border-bottom: none;
+}
+.list-table .list-table-header .header-title .link{
+  color: #fff; 
+}
+.list-table .list-table-header .header-title .link.sort {
+  color: #fff;
+	text-decoration: none;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+a:visited {
+	color: #fff;
+	text-decoration: inherit;
+}
+a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.list-table {
+  border: none;
+}
+.list-table .list-table-data .data {
+  color: #fff;
+ border-bottom: none; 
+}
+.list-table > tbody:nth-of-type(2n+1) {
+  background-color: #414868;
+}
